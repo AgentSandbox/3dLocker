@@ -5,7 +5,7 @@ const ConfiguratorContextRender = createContext();
 
 export const ConfiguratorProviderRender = ({children}) => {
 
-    const [arr, setArr] = useState(store[0])
+    const [arr, setArr] = useState(store[1])
     const [allElem, setAllElem] = useState([])
     const [idProject, setIdProject] = useState(false)
     const [allProjects, setAllProjects] = useState(arr.projects)

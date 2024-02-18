@@ -8,103 +8,102 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "evgen",
+                nameProject: "VidDefoult",
                 def: [
-                    {file: "evgenDefoult1"},
-                    {file: "evgenDefoult2"},
-                    {file: "evgenDefoult3"},
-                    {file: "evgenDefoult4"},
-                    {file: "evgenDefoult5"},
-                    {file: "evgenDefoult6"},
-                    {file: "evgenDefoult7"},
-                    {file: "evgenDefoult8"},
+                    {file: "evgenParquet"},
+                    {file: "evgenDefoult0"},
                 ],
                 components: [
-                    {id: v1(), groupElements: 0, name: "maxconeHandle1", file: "davidConeA1", check: false},
-                    {id: v1(), groupElements: 0, name: "maxconeHandle2", file: "davidConeA2", check: true},
-                    {id: v1(), groupElements: 0, name: "maxconeHandle3", file: "davidConeA3", check: false},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf1", file: "davidConeB1", check: true},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf2", file: "davidConeB2", check: false},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf3", file: "davidConeB3", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock1", file: "davidConeC1", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock2", file: "davidConeC2", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock3", file: "davidConeC3", check: true}
+                    {id: v1(), groupElements: 0, name: "evgenKravat", file: "evgenKravat", check: false},
+                    {id: v1(), groupElements: 0, name: "evgenMatras", file: "evgenMatras", check: true},
+                    {id: v1(), groupElements: 1, name: "evgenOdeyalo", file: "evgenOdeyalo", check: true},
+                    {id: v1(), groupElements: 1, name: "evgenOdeyalo2", file: "evgenOdeyalo2", check: false},
+                    {id: v1(), groupElements: 2, name: "evgenPodushka1", file: "evgenPodushka1", check: true},
+                    {id: v1(), groupElements: 2, name: "evgenPodushka2", file: "evgenPodushka2", check: false},
+                    {id: v1(), groupElements: 2, name: "evgenPodushka3", file: "evgenPodushka3", check: false},
+                    {id: v1(), groupElements: 3, name: "evgenPotolok", file: "evgenPotolok", check: false},
+                    {id: v1(), groupElements: 3, name: "evgenWallOne", file: "evgenWallOne", check: false},
+                    {id: v1(), groupElements: 3, name: "evgenWallTwo", file: "evgenWallTwo", check: false},
+                    {id: v1(), groupElements: 3, name: "evgenWallThree", file: "evgenWallThree", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "VidOne",
+                def: [
+                    {file: "davidVidoneDefoultWall"},
+                    {file: "evgenVidoneDefolultParquett"},
+                ],
+                components: [
+                    {id: v1(), groupElements: 0, name: "VidOneVarOne", file: "VidOneVarOne", check: true},
+                    {id: v1(), groupElements: 0, name: "VidOneVarTwo", file: "VidOneVarTwo", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "VidTwo",
+                def: [
+                    {file: "evgenParquet"},
+                    {file: "evgenDefoult0"},
+                ],
+                components: [
                 ]
             },
         ]
     },
     {
         id: v1(),
-        name: "max",
+        name: "david",
         projects: [
             {
                 id: v1(),
                 check: false,
-                nameProject: "maxCube",
-                def: "davidCubeDef",
+                nameProject: "lockerVarOne",
+                def: [
+                    {file: "lockerDefoult1"},
+                    {file: "lockerDefoult2"},
+                ],
                 components: [
-                    {id: v1(), groupElements: 0, name: "maxsphereHandle1", file: "davidSphereA1", check: true},
-                    {id: v1(), groupElements: 0, name: "maxsphereHandle2", file: "davidSphereA2", check: false},
-                    {id: v1(), groupElements: 0, name: "maxsphereHandle3", file: "davidSphereA3", check: false},
-                    {id: v1(), groupElements: 1, name: "maxsphereMdf1", file: "davidSphereB1", check: true},
-                    {id: v1(), groupElements: 1, name: "maxsphereMdf2", file: "davidSphereB2", check: false},
-                    {id: v1(), groupElements: 1, name: "maxsphereMdf3", file: "davidSphereB3", check: false},
-                    {id: v1(), groupElements: 2, name: "maxsphereLock1", file: "davidSphereC1", check: false},
-                    {id: v1(), groupElements: 2, name: "maxsphereLock2", file: "davidSphereC2", check: false},
-                    {id: v1(), groupElements: 2, name: "maxsphereLock3", file: "davidSphereC3", check: true}
+                    {id: v1(), groupElements: 0, name: "lockerViewOne", file: "lockerViewOne", check: false},
+                    {id: v1(), groupElements: 0, name: "lockerViewTwo", file: "lockerViewTwo", check: true},
+                    {id: v1(), groupElements: 0, name: "lockerViewThree", file: "lockerViewThree", check: false},
+                    // {id: v1(), groupElements: 1, name: "evgenOdeyalo", file: "evgenOdeyalo", check: true},
+                    // {id: v1(), groupElements: 1, name: "evgenOdeyalo2", file: "evgenOdeyalo2", check: false},
+                    // {id: v1(), groupElements: 2, name: "evgenPodushka1", file: "evgenPodushka1", check: true},
+                    // {id: v1(), groupElements: 2, name: "evgenPodushka2", file: "evgenPodushka2", check: false},
+                    // {id: v1(), groupElements: 2, name: "evgenPodushka3", file: "evgenPodushka3", check: false},
+                    // {id: v1(), groupElements: 3, name: "evgenPotolok", file: "evgenPotolok", check: false},
+                    // {id: v1(), groupElements: 3, name: "evgenWallOne", file: "evgenWallOne", check: false},
+                    // {id: v1(), groupElements: 3, name: "evgenWallTwo", file: "evgenWallTwo", check: false},
+                    // {id: v1(), groupElements: 3, name: "evgenWallThree", file: "evgenWallThree", check: false},
                 ]
             },
             {
                 id: v1(),
                 check: false,
-                nameProject: "maxsphere",
-                def: "davidSphereDef",
+                nameProject: "VidOne",
+                def: [
+                    {file: "davidVidoneDefoultWall"},
+                    {file: "evgenVidoneDefolultParquett"},
+                ],
                 components: [
-                    {id: v1(), groupElements: 0, name: "maxsphereHandle1", file: "davidSphereA1", check: true},
-                    {id: v1(), groupElements: 0, name: "maxsphereHandle2", file: "davidSphereA2", check: false},
-                    {id: v1(), groupElements: 0, name: "maxsphereHandle3", file: "davidSphereA3", check: false},
-                    {id: v1(), groupElements: 1, name: "maxsphereMdf1", file: "davidSphereB1", check: true},
-                    {id: v1(), groupElements: 1, name: "maxsphereMdf2", file: "davidSphereB2", check: false},
-                    {id: v1(), groupElements: 1, name: "maxsphereMdf3", file: "davidSphereB3", check: false},
-                    {id: v1(), groupElements: 2, name: "maxsphereLock1", file: "davidSphereC1", check: false},
-                    {id: v1(), groupElements: 2, name: "maxsphereLock2", file: "davidSphereC2", check: false},
-                    {id: v1(), groupElements: 2, name: "maxsphereLock3", file: "davidSphereC3", check: true}
+                    {id: v1(), groupElements: 0, name: "VidOneVarOne", file: "VidOneVarOne", check: true},
+                    {id: v1(), groupElements: 0, name: "VidOneVarTwo", file: "VidOneVarTwo", check: false},
                 ]
             },
             {
                 id: v1(),
                 check: false,
-                nameProject: "maxcone",
-                def: "davidConeDef",
+                nameProject: "VidTwo",
+                def: [
+                    {file: "evgenParquet"},
+                    {file: "evgenDefoult0"},
+                ],
                 components: [
-                    {id: v1(), groupElements: 0, name: "maxconeHandle1", file: "davidConeA1", check: false},
-                    {id: v1(), groupElements: 0, name: "maxconeHandle2", file: "davidConeA2", check: true},
-                    {id: v1(), groupElements: 0, name: "maxconeHandle3", file: "davidConeA3", check: false},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf1", file: "davidConeB1", check: true},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf2", file: "davidConeB2", check: false},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf3", file: "davidConeB3", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock1", file: "davidConeC1", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock2", file: "davidConeC2", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock3", file: "davidConeC3", check: true}
                 ]
             },
-            {
-                id: v1(),
-                check: false,
-                nameProject: "BW",
-                def: "evgenWhile",
-                components: [
-                    {id: v1(), groupElements: 0, name: "maxconeHandle1", file: "davidConeA1", check: false},
-                    {id: v1(), groupElements: 0, name: "maxconeHandle2", file: "davidConeA2", check: true},
-                    {id: v1(), groupElements: 0, name: "maxconeHandle3", file: "davidConeA3", check: false},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf1", file: "davidConeB1", check: true},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf2", file: "davidConeB2", check: false},
-                    {id: v1(), groupElements: 1, name: "maxconeMdf3", file: "davidConeB3", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock1", file: "davidConeC1", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock2", file: "davidConeC2", check: false},
-                    {id: v1(), groupElements: 2, name: "maxconeLock3", file: "davidConeC3", check: true}
-                ]
-            }
         ]
     }
 ]
