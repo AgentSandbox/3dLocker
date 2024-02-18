@@ -60,15 +60,15 @@ export const store = [
             {
                 id: v1(),
                 check: false,
-                nameProject: "lockerVarOne",
+                nameProject: "lockerTypeOne",
                 def: [
                     {file: "lockerDefoult1"},
                     {file: "lockerDefoult2"},
                 ],
                 components: [
-                    {id: v1(), groupElements: 0, name: "lockerViewOne", file: "lockerViewOne", check: false},
-                    {id: v1(), groupElements: 0, name: "lockerViewTwo", file: "lockerViewTwo", check: true},
-                    {id: v1(), groupElements: 0, name: "lockerViewThree", file: "lockerViewThree", check: false},
+                    {id: v1(), groupElements: 0, name: "ViewOne", file: "lockerViewOne", check: true},
+                    {id: v1(), groupElements: 0, name: "ViewTwo", file: "lockerViewTwo", check: false},
+                    {id: v1(), groupElements: 0, name: "ViewThree", file: "lockerViewThree", check: false},
                     // {id: v1(), groupElements: 1, name: "evgenOdeyalo", file: "evgenOdeyalo", check: true},
                     // {id: v1(), groupElements: 1, name: "evgenOdeyalo2", file: "evgenOdeyalo2", check: false},
                     // {id: v1(), groupElements: 2, name: "evgenPodushka1", file: "evgenPodushka1", check: true},
@@ -78,6 +78,20 @@ export const store = [
                     // {id: v1(), groupElements: 3, name: "evgenWallOne", file: "evgenWallOne", check: false},
                     // {id: v1(), groupElements: 3, name: "evgenWallTwo", file: "evgenWallTwo", check: false},
                     // {id: v1(), groupElements: 3, name: "evgenWallThree", file: "evgenWallThree", check: false},
+                ]
+            },
+            {
+                id: v1(),
+                check: false,
+                nameProject: "lockerTypeTwo",
+                def: [
+                    {file: "lockerTypeTwoDefoult1"},
+                    {file: "lockerTypeTwoDefoult2"},
+                ],
+                components: [
+                    {id: v1(), groupElements: 0, name: "ViewOne", file: "lockerTypeTwoViewOne", check: true},
+                    {id: v1(), groupElements: 0, name: "ViewTwo", file: "lockerTypeTwoViewTwo", check: false},
+                    {id: v1(), groupElements: 0, name: "ViewThree", file: "lockerTypeTwoViewThree", check: false},
                 ]
             },
             {
