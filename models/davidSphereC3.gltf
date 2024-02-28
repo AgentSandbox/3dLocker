@@ -1,0 +1,211 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "jewelcraft" : {
+                    "weighting_materials" : {
+                        "coll" : [
+                            {
+                                "name" : "Yellow Gold 24K",
+                                "composition" : "Au 99.9%",
+                                "density" : 19.32
+                            },
+                            {
+                                "name" : "Yellow Gold 22K",
+                                "composition" : "Au 91.6%, Ag 4.9%, Cu 3.5%",
+                                "density" : 17.86
+                            },
+                            {
+                                "name" : "Yellow Gold 18K",
+                                "composition" : "Au 75.3%, Ag 16.5%, Cu 6.7%, Zn 1.5%",
+                                "density" : 15.53
+                            },
+                            {
+                                "name" : "Yellow Gold 14K",
+                                "composition" : "Au 58.4%, Ag 9.8%, Cu 28%, Zn 3.8%",
+                                "density" : 13.05
+                            },
+                            {
+                                "name" : "Yellow Gold 10K",
+                                "composition" : "Au 41.7%, Ag 11.2%, Cu 40.5%, Zn 6.6%",
+                                "density" : 11.47
+                            },
+                            {
+                                "name" : "White Gold 18K Pd",
+                                "composition" : "Au 78.7%, Cu 8.3%, Pd 13%",
+                                "density" : 15.66
+                            },
+                            {
+                                "name" : "White Gold 18K Ni",
+                                "composition" : "Au 75.15%, Cu 8.75%, Ni 12%, Zn 4.1%",
+                                "density" : 14.69
+                            },
+                            {
+                                "name" : "White Gold 14K Pd",
+                                "composition" : "Au 58.55%, Cu 7.2%, Ag 20%, Pd 13.5%, Zn 0.75%",
+                                "density" : 14.6
+                            },
+                            {
+                                "name" : "White Gold 14K Ni",
+                                "composition" : "Au 58.43%, Cu 21%, Ni 12.73%, Zn 7.84%",
+                                "density" : 12.61
+                            },
+                            {
+                                "name" : "White Gold 10K",
+                                "composition" : "Au 41.7%, Cu 35.7%, Ni 10.3%, Zn 12.3%",
+                                "density" : 10.99
+                            },
+                            {
+                                "name" : "Rose Gold 18K",
+                                "composition" : "Au 75.3%, Cu 23.3%, Ag 1.2%, Zn 0.2%",
+                                "density" : 15.02
+                            },
+                            {
+                                "name" : "Rose Gold 14K",
+                                "composition" : "Au 58.4%, Cu 39.2%, Ag 2%, Zn 0.4%",
+                                "density" : 13.03
+                            },
+                            {
+                                "name" : "Rose Gold 10K",
+                                "composition" : "Au 41.5%, Cu 55%, Ag 3%, Zn 0.5%",
+                                "density" : 11.52
+                            },
+                            {
+                                "name" : "Platinum 950",
+                                "composition" : "Pt 95%, Ru 5%",
+                                "density" : 20.7
+                            },
+                            {
+                                "name" : "Platinum 900",
+                                "composition" : "Pt 90%, Ir 10%",
+                                "density" : 21.54
+                            },
+                            {
+                                "name" : "Palladium 950",
+                                "composition" : "Pd 95%, Ru 5%",
+                                "density" : 12.16
+                            },
+                            {
+                                "name" : "Silver Sterling",
+                                "composition" : "Ag 92.5%, Cu 7.5%",
+                                "density" : 10.36
+                            }
+                        ],
+                        "index" : 0
+                    }
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "davidSphereC3"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "davidSphereC3",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.24778197705745697,
+                    0.006108929868787527,
+                    0.8000000715255737,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cone.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 128,
+            "max" : [
+                -0.508402407169342,
+                -0.12561020255088806,
+                0.7848358750343323
+            ],
+            "min" : [
+                -1.2422513961791992,
+                -0.8594591617584229,
+                0.05098694562911987
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 128,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 128,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 186,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1536,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1536,
+            "byteOffset" : 1536
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1024,
+            "byteOffset" : 3072
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 372,
+            "byteOffset" : 4096
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4468,
+            "uri" : "data:application/octet-stream;base64,bBVgv4QFXL+w11A9bBVgv4QFXL+w11A9bBVgv4QFXL+w11A9IsJNv4QFXL+IuG09IsJNv4QFXL+IuG09IsJNv4QFXL+IuG09ICM8v4QFXL90n6E9ICM8v4QFXL90n6E9ICM8v4QFXL90n6E9wuUrv4QFXL+8EOc9wuUrv4QFXL+8EOc9wuUrv4QFXL+8EOc9y6kdv4QFXL90QiI+y6kdv4QFXL90QiI+y6kdv4QFXL90QiI+RvsRv4QFXL9PMls+RvsRv4QFXL9PMls+RvsRv4QFXL9PMls+HE0Jv4QFXL/kE44+HE0Jv4QFXL/kE44+HE0Jv4QFXL/kE44+tvQDv4QFXL/nUbE+tvQDv4QFXL/nUbE+tvQDv4QFXL/nUbE+qSYCv4QFXL99+NU+qSYCv4QFXL99+NU+qSYCv4QFXL99+NU+tvQDv4QFXL8Rn/o+tvQDv4QFXL8Rn/o+tvQDv4QFXL8Rn/o+HE0Jv4QFXL+K7g4/HE0Jv4QFXL+K7g4/HE0Jv4QFXL+K7g4/RfsRv4QFXL/oKx8/RfsRv4QFXL/oKx8/RfsRv4QFXL/oKx8/y6kdv4QFXL/fZy0/y6kdv4QFXL/fZy0/y6kdv4QFXL/fZy0/wuUrv4QFXL9lFjk/wuUrv4QFXL9lFjk/wuUrv4QFXL9lFjk/ICM8v4QFXL+OxEE/ICM8v4QFXL+OxEE/ICM8v4QFXL+OxEE/IsJNv4QFXL/0HEc/IsJNv4QFXL/0HEc/IsJNv4QFXL/0HEc/bRVgv4QFXL8B60g/bRVgv4QFXL8B60g/bRVgv4QFXL8B60g/tmhyv4QFXL/0HEc/tmhyv4QFXL/0HEc/tmhyv4QFXL/0HEc/3AOCv4QFXL+OxEE/3AOCv4QFXL+OxEE/3AOCv4QFXL+OxEE/iyKKv4QFXL9kFjk/iyKKv4QFXL9kFjk/iyKKv4QFXL9kFjk/hkCRv4QFXL/fZy0/hkCRv4QFXL/fZy0/hkCRv4QFXL/fZy0/yReXv4QFXL/qKx8/yReXv4QFXL/qKx8/yReXv4QFXL/qKx8/3m6bv4QFXL+L7g4/3m6bv4QFXL+L7g4/3m6bv4QFXL+L7g4/ERuev4QFXL8Sn/o+ERuev4QFXL8Sn/o+ERuev4QFXL8Sn/o+GAKfv4QFXL98+NU+GAKfv4QFXL98+NU+GAKfv4QFXL98+NU+ERuev4QFXL/mUbE+ERuev4QFXL/mUbE+ERuev4QFXL/mUbE+3m6bv4QFXL/iE44+3m6bv4QFXL/iE44+3m6bv4QFXL/iE44+yheXv4QFXL9TMls+yheXv4QFXL9TMls+yheXv4QFXL9TMls+h0CRv4QFXL92QiI+h0CRv4QFXL92QiI+h0CRv4QFXL92QiI+iyKKv4QFXL+8EOc9iyKKv4QFXL+8EOc9iyKKv4QFXL+8EOc93AOCv4QFXL9wn6E93AOCv4QFXL9wn6E93AOCv4QFXL9wn6E9tmhyv4QFXL+AuG09tmhyv4QFXL+AuG09tmhyv4QFXL+AuG09bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+bBVgv/afAL58+NU+KbizvRQX5D4KF2S/7kAFM///f78AAACAFLizPfcW5D4RF2S/7kAFM///f78AAACAFLizPfcW5D4RF2S/DBCFPg0X5D4fU1u/7kAFM///f78AAACADBCFPg0X5D4fU1u/KBXYPhwX5D5wIUq/7kAFM///f78AAACAKBXYPhwX5D5wIUq/IGYRPxQX5D5IKzG/7kAFM///f78AAACAIGYRPxQX5D5IKzG/SysxPwUX5D4kZhG/7kAFM///f78AAACASysxPwUX5D4kZhG/dCFKP/4W5D41Fdi+7kAFM///f78AAACAdCFKP/4W5D41Fdi+HlNbPxYX5D4AEIW+7kAFM///f78AAACAHlNbPxYX5D4AEIW+DBdkPwgX5D5euLO97kAFM///f78AAACAChdkPxEX5D5luLM9DBdkPwgX5D5euLO97kAFM///f78AAACAIFNbPwYX5D4BEIU+ChdkPxEX5D5luLM97kAFM///f78AAACAfCFKPxIX5D78FNg+IFNbPwYX5D4BEIU+7kAFM///f78AAACAQCsxP/QW5D42ZhE/fCFKPxIX5D78FNg+7kAFM///f78AAACAHmYRPyIX5D5FKzE/QCsxP/QW5D42ZhE/7kAFM///f78AAACAKRXYPhYX5D5yIUo/HmYRPyIX5D5FKzE/7kAFM///f78AAACADBCFPgkX5D4fU1s/KRXYPhYX5D5yIUo/7kAFM///f78AAACAErizPQAX5D4PF2Q/DBCFPgkX5D4fU1s/LLizvQkX5D4NF2Q/7kAFM///f78AAACAErizPQAX5D4PF2Q/HBCFvgwX5D4dU1s/LLizvQkX5D4NF2Q/7kAFM///f78AAACANBXYviAX5D5sIUo/HBCFvgwX5D4dU1s/7kAFM///f78AAACAHGYRvwoX5D5NKzE/NBXYviAX5D5sIUo/7kAFM///f78AAACANisxv+sW5D5GZhE/HGYRvwoX5D5NKzE/7kAFM///f78AAACAfiFKvxkX5D7zFNg+Nisxv+sW5D5GZhE/7kAFM///f78AAACAGFNbvwgX5D48EIU+fiFKvxkX5D7zFNg+7kAFM///f78AAACAEBdkvwwX5D5St7M9GFNbvwgX5D48EIU+7kAFM///f78AAACAEBdkvwwX5D5St7O9EBdkvwwX5D5St7M97kAFM///f78AAACAEBdkvwwX5D5St7O9FlNbvxEX5D48EIW+7kAFM///f78AAACAFlNbvxEX5D48EIW+fCFKvwgX5D4TFdi+7kAFM///f78AAACAfCFKvwgX5D4TFdi+QCsxv/QW5D42ZhG/7kAFM///f78AAACAQCsxv/QW5D42ZhG/HmYRvyIX5D5FKzG/7kAFM///f78AAACAHmYRvyIX5D5FKzG/JhXYvh8X5D5vIUq/7kAFM///f78AAACAJhXYvh8X5D5vIUq/DBCFvgkX5D4fU1u/7kAFM///f78AAACADBCFvgkX5D4fU1u/KbizvRQX5D4KF2S/7kAFM///f78AAACAEBdkvwwX5D5St7O9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"
+        }
+    ]
+}
